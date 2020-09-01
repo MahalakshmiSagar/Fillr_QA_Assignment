@@ -91,12 +91,12 @@ The testing activity would be resumed when:
   
 
 ### Test Deliverables
-The following test artifacts will be delivered:
+The following test [artifacts](https://github.com/MahalakshmiSagar/Fillr_QA_Assignment/tree/master/TestDocuments) will be delivered:
 - Test Plan
-- Test Cases
+- [Test Cases](https://github.com/MahalakshmiSagar/Fillr_QA_Assignment/tree/master/TestDocuments/TestCases%20in%20BDD%20Format)
 - Defect Reports
 - Test Summary Reports
-- Automation setup
+- [Automation setup](https://github.com/MahalakshmiSagar/Fillr_QA_Assignment)
 
 ###### Note: The URL under test blocks Selenium commands. However a sample script is created on a high level framework (i.e Page object model is not followed in terms of framework structure)
 

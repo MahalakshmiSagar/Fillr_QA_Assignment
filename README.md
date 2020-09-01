@@ -4,7 +4,7 @@ The following document has a high-level Test plan for the testing of **Signin Pa
 
 
 
-####Table of contents
+#### Table of contents
 * [Introduction](#Introduction)
 * [Scope](#Scope)
     * [Features to Be Tested](#Features-to-Be-Tested)
@@ -22,13 +22,15 @@ The following document has a high-level Test plan for the testing of **Signin Pa
 
 ## Test Plan
 
-###Introduction
+### Introduction
+
 The sign in page is an important page on the site as it facilitates the access to the web application through authentication process, hence has lots of traffic. It offers Sign in through different channels and would be replacing the legacy sign in page.
 
 In terms of architecture login page is built on JavaScript, the communication with database happens with the help of an API.
 
 
-###Scope
+### Scope
+
 The scope of this test project includes testing of Sign-In functionality of the [realestate.com.au](#https://accounts.realestate.com.au/login?client_id=2fb06dqab95hci46dgldph0382&redirect_uri=https://www.realestate.com.au/auth&response_type=code&state=dnJ-VBXGZc8PT0G0K6YJ5GGd2ko5YwK_P74rHqA5pM5cF02KMbRioXpTvlihPawryN0bJeoESTCCbXvSv-3d4bsT-F3OcO-Nj-rc5V8uxwD6_SLYAZogIWR5AgJK4sJ-bmoSdV-VMyZx5MBfCOaYqri_Syrpj4Lc4LbMOba6Hy5xqOEZ) application. The test cases will be written in BDD format using gherkin language. 
 The functional tests will be executed Manually and the regression suit will be automated.  
 
@@ -49,9 +51,9 @@ Examples:
 
 ```
 
-####Features to Be Tested
+#### Features to Be Tested
 Below features will be tested:
-#####Sign In 
+##### Sign In 
 - With new Account
 - With reset password
 - With registered username and password
@@ -61,19 +63,19 @@ Below features will be tested:
 
 #### Features not to Be Tested
 Below features will not be tested:
-#####Create an Account
+##### Create an Account
 - On Login page with Facebook Page
 - On Login page with Google Page
 - On Login page with Apple Page 
 
 ### Approach
 The following test approach is followed to meet the objective of this project.
-#####Functional Testing:
+##### Functional Testing:
 The functional test will be carried out manually.
-#####Automated Regression Testing: 
+##### Automated Regression Testing: 
 The Automation setup would execute regression suite of the functional test cases.
 
-###Item Pass/Fail Criteria
+### Item Pass/Fail Criteria
 The following requirements needs to be met to consider a test to be pass. Otherwise it is considered as Fail.
 - The actual result should match the expected result of each test case.
   
@@ -96,7 +98,7 @@ The following test artifacts will be delivered:
 - Test Summary Reports
 - Automation setup
 
-######Note: The URL under test blocks Selenium commands. However a sample script is created on a high level framework (i.e Page object model is not followed in terms of framework structure)
+###### Note: The URL under test blocks Selenium commands. However a sample script is created on a high level framework (i.e Page object model is not followed in terms of framework structure)
 
 ### Test Activities
 The below activities will be carried our by the test team
@@ -120,11 +122,13 @@ This project will have a single test resource hence all the responsibilites will
 Below are the schedule for each type of testing:
 
 
+
+________________________________________
+
 Types of testing | Test Coverage | Due Date
-
-Manual Testing	 | 100% 		 | 2-Sept-20
-
-Automation Tests | TBD			 | 2-Sept-20
+------------ | ------------- | -------------
+Manual Testing  | 100% | 2-Sept-20 
+Automation Tests  | TBD | 2-Sept-20
 
 
 #### Risks and Contingencies
@@ -133,16 +137,18 @@ TBD
 #### Approvals
 This plan needs to be approved by the following:
 
-Name | Designation | Approval status.
-
-Fillr Manager | Test Manager | Pending.
-
-Fillr Lead | Test Lead | Pending.
 ________________________________________
+
+Name | Designation | Approval Status
+------------ | ------------- | -------------
+Fillr  | Test Manager | Pending 
+Fillr  | Test Manager | Pending 
+
 
 
 *NOTE*: In order to set up the Automation project, Clone the GIT repository on you local IDE and run Mvn clean install. 
 The pre-req: Make sure the machine has Java installed and Java_Home Env variable set up. Maven downloaded and M2_Home Env variable is set
 
 
+________________________________________
 

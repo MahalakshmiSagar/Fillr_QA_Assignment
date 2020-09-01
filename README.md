@@ -17,7 +17,7 @@ The following document has a high-level Test plan for the testing of **Signin Pa
 * [Environmental Needs](#Environmental-Needs)
 * [Responsibilities](#Responsibilities)
 * [Schedule](#Schedule)
-* [Risks and Contingencies](#Risks and Contingencies)
+* [Risks and Contingencies](#Risks-and-Contingencies)
 * [Approvals](#Approvals)
 
 ## Test Plan
